@@ -1,0 +1,110 @@
+body{
+    background-color: #EFEEEA;
+}
+
+.navbar{
+    background-color: #130b14;
+    font-style: italic;
+    padding: 14px 20px;
+    border-radius: 30px;
+}
+#header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D1164;
+    border: 2px rgb(70, 19, 19) solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    text-justify: distribute;
+    color: #896C6C;
+    font-size: 18px;
+    
+}
+
+#name{
+    font-size: 20px;
+    color: #719cbf93;
+    font-weight: bold;
+    border: rgb(165, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    background-color: #7b6e7859;
+    border-radius: 6px;
+    height: 30px;
+    margin-top: 3%;
+}
+#image{
+    width: 80px;
+    height: 80px;
+    
+    
+}
+image:hover{
+    transition: all;
+    transition-duration: 2s;
+    transition-property: ease-in;
+     height: 100px;
+     width: 100px;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#form{
+    display: flex;
+}
+#education{
+    font-size: 15px;
+    border: rgb(165, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    background-color: #a5a89d;
+    border-radius: 100px;
+    height: 30px;
+    margin-top: 3%;
+}
+#about{
+    margin-top: 6px;
+    border: 4px solid rgb(180, 161, 161);
+    border-radius: 10px;
+    background-color: #9f8a3656;
+}
+#project{
+    margin-top: 2px;
+    border: 4px solid rgb(180, 161, 161);
+    border-radius: 10px;
+    background-color: #9f8a3656;
+}
+#skill{
+    margin-top: 2px;
+    border: 4px solid rgb(180, 161, 161);
+    border-radius: 10px;
+    background-color: #9f8a3656;
+}
+#Education{
+    margin-top: 2px;
+    border: 4px solid rgb(180, 161, 161);
+    border-radius: 10px;
+    background-color: #9f8a3656;
+}
+#c{
+    margin-top: 2px;
+    border: 4px solid rgb(180, 161, 161);
+    border-radius: 10px;
+    background-color: #9f8a3656;
+}
