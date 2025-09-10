@@ -3,10 +3,10 @@ body{
 }
 
 .navbar{
-    background-color: #130b14;
+    background-color: #1f2122df;
     font-style: italic;
     padding: 14px 20px;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 #header{
     text-align: center;
@@ -107,4 +107,9 @@ image:hover{
     border: 4px solid rgb(180, 161, 161);
     border-radius: 10px;
     background-color: #9f8a3656;
+}
+header{
+    position: fixed;
+    width: 400px;
+
 }
