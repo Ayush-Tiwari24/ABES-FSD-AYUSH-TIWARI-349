@@ -4,81 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bookmark</title>
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      .viewport {
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(221, 197, 197, 0.841);
-      }
-      .logoname {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-        font-family: "Libertinus Keyboard", system-ui;
-        font-weight: 400;
-        font-style: italic;
-        color: rgb(142, 34, 34);
-        margin-top: 0px;
-        width: 100vw;
-        text-shadow: 3px 4px 4px rgba(224, 60, 31, 0.759);
-      }
-      .logo {
-        display: flex;
-        align-items: flex-start;
-      }
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      .header {
-        display: flex;
-        /* align-items: center;
-        justify-content: center; */
-        gap: 10px;
-        padding: 10px;
-        background-color: rgba(183, 154, 154, 0.447);
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      #branch {
-        margin-left: 0px;
-        list-style-type: none;
-        padding: 0px;
-        line-height: 2.5;
-        margin-top: auto;
-        align-items: center;
-        margin-left: 5px;
-        /* margin-right: px; */
-      }
-      th,
-      td {
-        border: 2px solid black;
-        padding: 10px;
-        width: 50px;
-        text-align: center;
-      }
-      img {
-        border-radius: 80%;
-        height: 95px;
-        box-shadow: 3px 4px 12px rgba(223, 63, 63, 0.926);
-      }
-
-      table {
-        background-color: rgba(237, 97, 97, 0.652);
-      }
-    </style>
+      rel="stylesheet"/>
+    
   </head>
   <body>
     <div class="viewport">
@@ -87,16 +19,16 @@
           <img
             src="ChatGPT Image Sep 11, 2025, 01_13_44 AM.png"
             alt="LOGO"
-            width="90PX"
+            width="105PX"
           />
         </div>
-        <div class="logoname"><h1>BOOKMARK</h1></div>
+        <div class="logoname"><a id="bookmark" href="index.html">BOOKMARK</a></div>
       </div>
       <div id="table">
         <table>
           <tr>
             <th><a href="index.html">HOME</a></th>
-            <th><a href="login.html">LOGIN</a></th>
+            <th><a href="#">LOGIN</a></th>
             <th><a href="registration.html">REGISTRATION</a></th>
             <th><a href="catalogue.html">CATALOGUE</a></th>
             <th><a href="cart.html">CART</a></th>
@@ -112,7 +44,29 @@
               </ul>
             </td>
             <td colspan="4">
-              
+              <div class="container"><div id="login">
+                
+              <div class="loginpage">
+                <h2 style="font-weight:500;border-bottom: 2px solid rgba(0, 0, 0, 0.611);border-radius: 95px;">LOGIN </h2><br><br><br>
+                <form action="">
+                  <label for="username">Username:</label>
+                  <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter Username"
+                  /><br /><br><br>
+                  <label for="password">Password:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter Password"
+                    
+                  /><br /><br /><br>
+                  <button>Submit</button>
+                  <button>Reset</button>
+              </div>
+              </div>
+            </div>
             </td>
           </tr>
         </table>
