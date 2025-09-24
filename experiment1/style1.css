@@ -6,7 +6,7 @@
 .viewport {
   width: 100vw;
   height: 100vh;
-  background-color: #FFDCDC;
+  background-color: #dbb460e8;
 }
 #bookmark {
   text-decoration: none;
@@ -74,7 +74,7 @@ img {
 }
 
 table {
-  background-color: #FFF2EB;
+  background-color: #c5b0a0ba;
 }
 a {
   text-decoration: none;
@@ -101,17 +101,15 @@ a {
 }
 .loginpage {
   text-align: center;
-  background: #6190E8;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A7BFE8, #6190e867); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  
   width: 85%;
   height: 83%;
   border: 0px solid rgba(0, 0, 0, 0.686);
   border-radius: 35px;
   /* opacity: 0.7; */
-  box-shadow:inset 10px 3px 12px rgba(0, 0, 0, 0.475),
-    inset -10px -15px 12px rgba(0, 0, 0, 0.475);
+  background-color: rgba(188, 176, 176, 0.54);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.475),
+    -5px 5px 12px rgba(0, 0, 0, 0.475),inset 5px 5px 12px rgba(99, 96, 96, 0.83),inset -5px -5px 12px rgba(99, 96, 96, 0.83);
 }
 #password {
   width: 50%;
